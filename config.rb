@@ -62,7 +62,7 @@ end
 
 activate :deploy do |deploy|
   deploy.method = :git
-  deploy.remote   = 'https://github.com/adityapingle/slate.git' # remote name or git url, default: origin
-  deploy.branch   = 'testing' # default: gh-pages
+  deploy.remote   = 'https://github.com/adityapingle/slate_test.git' # remote name or git url, default: origin
+  deploy.branch   = 'master' # default: gh-pages
 end
 
